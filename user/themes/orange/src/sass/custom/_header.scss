@@ -1,0 +1,29 @@
+.navbar {
+  display: block;
+  background-color: $color-primary;
+  color: $color-white;
+  height: 50px;
+
+  a {
+    color: $color-white;
+  }
+
+  li {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 50px;
+
+  li {
+    align-self: center;
+    padding: 0 15px;
+  }
+}
