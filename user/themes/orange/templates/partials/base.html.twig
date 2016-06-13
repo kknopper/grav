@@ -20,6 +20,7 @@
         {% block stylesheets %}
             {# Kraken core CSS #}
             {% do assets.add('theme://dist/css/main.css',101) %}
+            {#% do assets.add('system://assets/kraken/css/main.min.css',101) %#}
 
         {# Custom styles for this theme #}
             {% do assets.add('theme://css/kraken-custom.css',100) %}

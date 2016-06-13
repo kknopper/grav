@@ -88,6 +88,7 @@ assets:                                     # Configuration for Assets Manager (
   enable_asset_timestamp: false             # Enable asset timestamps
   collections:
     jquery: system://assets/jquery/jquery-2.x.min.js
+    kraken: system://assets/kraken/css/main.min.css
 
 errors:
   display: false                            # Display full backtrace-style error page

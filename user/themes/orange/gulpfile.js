@@ -72,7 +72,7 @@ var paths = {
 	},
 	svgs: {
 		input: 'src/svg/*',
-		output: 'svg/'
+		output: 'dist/svg/'
 	},
 	images: {
 		input: 'src/images/*',
