@@ -14,6 +14,12 @@
         <meta name="robots" content="{{ header.robots }}">
         {% endif %}
         <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon.png">
+        <!-- Generate using http://realfavicongenerator.net/ -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ theme_url }}/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="{{ theme_url }}/images/manifest.json">
+        <meta name="theme-color" content="#ef6630">
 
         <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
 
